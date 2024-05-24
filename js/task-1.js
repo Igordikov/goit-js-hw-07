@@ -1,5 +1,5 @@
 
-// ======================STYLES==========================
+// styles
 
 const classForLi = document.querySelectorAll('.item li');
 
@@ -19,10 +19,11 @@ classForTitle.forEach((h2) => {
 const classForUl = document.getElementById('categories');
 classForUl.classList.add('list-categories');
 
-// ///////////////////////STYLES///////////////////////
+// ////////////////////////////styles
 
 
 
+// script
 
 const listOfCategories = document.querySelectorAll('#categories .item');
 console.log('Number of categories: ', listOfCategories.length)
@@ -39,3 +40,4 @@ nameOfList.forEach((li) => {
          })
 
 
+// /////////////////////////script
