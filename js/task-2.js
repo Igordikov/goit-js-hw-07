@@ -44,21 +44,3 @@ images.forEach((image) => {
 })
 
 
-
-// const galleryElem = document.querySelector('.gallery');
-
-// if (galleryElem) {
-//   images.forEach((image) => {
-//     const newImage = document.createElement('img');
-//     newImage.src = image.url;
-//     newImage.alt = image.alt;
-//     
-
-//     const liElem = document.createElement('li');
-//     liElem.appendChild(newImage);
-
-//     galleryElem.appendChild(liElem);
-//   });
-// } else {
-//   console.error('Элемент .gallery не найден на странице.');
-// }
