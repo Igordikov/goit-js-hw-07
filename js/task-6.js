@@ -30,12 +30,12 @@ buttonDestroy.classList.add('button-destroy-js');
 
 
 
-
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
 }
+
 
 function createBoxes(amount) {
   containerForEl.innerHTML = '';
@@ -45,7 +45,7 @@ function createBoxes(amount) {
     box.style.width = `${30 + i * 10}px`;
     box.style.height = `${30 + i * 10}px`;
     box.style.backgroundColor = getRandomHexColor();
-    containerForEl.appendChild(box);
+    containerForEl.insertAdjacentHTML('beforeend', box.outerHTML);
   }
 };
 
